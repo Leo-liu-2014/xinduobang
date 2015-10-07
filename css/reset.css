@@ -18,6 +18,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 *{
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+em {
+	font-style: normal;
+}
 html {
 	font-size: 62.5%;
 }
@@ -70,6 +73,10 @@ footer {
 	看是否有冲突
 	10／05
 */
+
+.warp {
+	padding:0 2rem;
+}
 
 .common-blue {
 	color:#50c1e9;
@@ -132,6 +139,34 @@ footer {
 	
 }
 
+
+body div.grey {
+	color:#a7aaaa;
+	background: #f7f7f7;
+}
+
+.succse {
+	margin:0 auto;
+	width: 2.8rem;
+	height: 2.8rem;
+	background: url(../images/suc.png) 50% no-repeat;
+	background-size: 90%;
+	margin-bottom: 1rem;
+}
+
+.error {
+	margin:0 auto;
+	width: 2.8rem;
+	height: 2.8rem;
+	background: url(../images/error.png) 50% no-repeat;
+	background-size: 90%;
+	margin-bottom: 1rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
 body div.border-none {
 	border-right: none;
 }
@@ -171,8 +206,6 @@ a.btn {
 
 .transverse h2 {
 	font-weight: normal;
-	font-size:1rem;
-	color:#b0bbbb;
 	padding-bottom:1.25rem;
 }
 
@@ -346,6 +379,9 @@ body li.help span {
 	text-align: center;
 }
 
+.fr {
+	float: right
+}
 .full-btn {
 	margin-top:1rem;
 	display: block;
@@ -357,12 +393,34 @@ body li.help span {
 	padding:1.2rem 0;
 	font-size: 1.5rem;
 }
+.short-btn {
+	margin-top:1rem;
+	display: block;
+	text-align: center;
+	background: #33ccff;
+	color:#fff;
+	border-radius: 5px;
+	padding:2rem 1rem;
+	font-size: 2rem;
+	float:left;
+	margin-right: 1rem;
 
+}
+
+.wri-btn {
+	display: block;
+	padding:1.2rem 0;
+	font-size: 1.5rem;
+	width: 100%;
+	color: #babcbc;
+	text-align: center;;
+	background: #fff;
+	border-radius: 5px;
+}
 .user-full {
 	float:left;
 }
 .voice {
-	float:left;
 	position: relative;
 	top:-6px;
 }
@@ -386,6 +444,31 @@ body li.help span {
 	text-align: right;
 	padding-right: 10px;
 	background-size: 20%;
+}
+
+.voice-big {
+	position: relative;
+	top:-6px;
+}
+.voice-big div.head {
+	display: block;
+	float: left;
+	background:url(../images/voice.png) 5px 1rem  no-repeat;
+	width: 10px;
+	height: 2rem;
+	background-size: 50%;
+}
+.voice-big div.time{
+	display: block;
+	float: left;
+	width:30%;
+	height: 3rem;
+	background:url(../images/voice_icon.png) 0 50% #a0d468 no-repeat;
+	border-radius:3px;
+	color:#fff;
+	line-height: 3rem;
+	text-align: right;
+	padding-right: 10px;
 }
 
 

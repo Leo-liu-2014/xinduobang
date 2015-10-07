@@ -208,6 +208,21 @@ i.qa {
 	margin-bottom: 1rem;
 }
 
+.commission li.on {
+	background: url(../images/tc_bg_on.png) no-repeat;
+	background-size:98% 100%;
+}
+
+.commission li.add {
+	background: url(../images/tc_bg_add.png) no-repeat;
+	background-size:98% 100%;
+	height: 8rem;
+}
+
+.commission li.on .title,.commission li.on .date,.commission li.on .ymoney,.commission li.on .ymoney font,.commission li.on p.used {
+	color:#fff;
+}
+
 .commission li p.used {
 	position: absolute;
 	right: 10%;
@@ -328,6 +343,17 @@ li.iou-db {
 	background: #f1f1f1;
 	color:#333;
 }
+
+.tag-list input {
+	float: left;
+	padding:1rem;
+	background: #eee;
+	color: #333;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	border:none;
+}
+
 .tag-list span {
 	display: block;
 	float: left;
@@ -372,5 +398,52 @@ li.iou-db {
 
 .msg-img img {
 	background-size: 40% auto;
+}
+
+
+
+.tag-list-new span.add {
+	background: #f1f1f1;
+	color:#333;
+}
+
+.tag-list-new li {
+	height:3rem;
+	float: left;
+}
+.tag-list-new input {
+	float: left;
+	padding:1rem 0.2rem;
+	background: #eee;
+	color: #333;
+	margin-right: 1rem;
+	border:none;
+	width: 8rem;
+	height: 1.2rem;
+}
+
+.tag-list-new span {
+	display: block;
+	float: left;
+	padding:1rem;
+	background: #33ccff;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.tag-list-new li em {
+	background: #14b1e5;
+	font-size: 1.2rem;
+	display: block;
+	float: left;
+	padding:1rem;
+	color: #fff;
+
+}
+
+.tag-list-new  li{
+
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 
