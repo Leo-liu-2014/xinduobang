@@ -1,0 +1,376 @@
+.icon-list {
+
+}
+
+.icon-list {
+	background: #fff;
+}
+
+.icon-list li {
+	float:left;
+	width:24.8%;
+	height:7rem;
+	text-align: center;
+	border:1px solid #eee;
+	border-left:none;
+	border-bottom:none;
+	position: relative;
+}
+
+li u.feed {
+	display: block;
+	background: #e61818;
+	width:10px;
+	height:10px;
+	position: absolute;
+	border-radius: 5px;
+	top:20%;
+	right:30%;
+}
+
+.icon-list li div{
+	padding:1.26667em 0;
+	display: block;
+}
+
+.icon-list li div p {
+	color:#606666;
+	font-size:.9rem;
+}
+.icon-list li  i{
+	margin:0 auto;
+	display: block;
+	height:2.5rem;
+	width:2.5rem;
+	-moz-background-size: 1.25em 1.25em;
+	-o-background-size: 1.25em 1.25em;
+	-webkit-background-size: 1.25em 1.25em;
+	background-size:1.5rem 1.5rem;
+}
+
+i.zc {
+	background:url(../images/icon_03.png) 50% no-repeat;
+}
+i.tc {
+	background:url(../images/icon_05.png) 50% no-repeat;
+}
+i.jt {
+	background:url(../images/icon_07.png) 50% no-repeat;
+}
+i.msg {
+	background:url(../images/icon_09.png) 50% no-repeat;
+}
+i.fr {
+	background:url(../images/icon_15.png) 50% no-repeat;
+}
+i.safe {
+	background:url(../images/icon_16.png) 50% no-repeat;
+}
+i.jf {
+	background:url(../images/icon_17.png) 50% no-repeat;
+}
+i.qa {
+	background:url(../images/icon_19.png) 50% no-repeat;
+}
+
+
+
+/*总资产*/
+.header-all {
+	
+}
+
+
+.art-tit {
+	padding:2rem 0;
+}
+
+.header-all .art-tit span {
+	display: block;
+	margin-bottom:1.25rem;
+}
+
+.header-all .art-tit-cen span {
+	display: block;
+	margin-bottom:0.8rem;
+}
+
+
+.header-all article {
+	
+}
+
+/*交易明细*/
+
+.help {
+
+}
+
+/*奖金兑换*/
+.change-tab {
+	
+}
+.change-tab h2 {
+	padding-top: 25%;
+}
+.change-tab ul li {
+	float: left;
+	width:49%;
+	text-align: center;
+	border-right: 1px solid #eee;
+	padding:1rem 0;
+	background:url(../images/money_nav_dis.png) 50% 30% no-repeat;
+	background-size: 3.8rem 2rem;
+}
+
+.change-tab ul li.on {
+	color:#33ccff;
+	background:url(../images/money_nav.png) 50% 30% no-repeat;
+	background-size: 3.8rem 2rem;
+	
+}
+
+.change-tab ul li.on h2 {
+	color:#33ccff;
+}
+.change-tab ul li  h2 {
+	color:#afb2b2;
+}
+
+
+/*奖金兑换 三栏切换*/
+.change-tab-more {
+	
+}
+
+.change-tab-more ul li {
+	float: left;
+	width:33%;
+	text-align: center;
+	border-right: 1px solid #eee;
+	padding:1rem 0;
+	background-size: 3.8rem 2rem;
+	line-height:1rem;
+}
+
+.change-tab-more ul li.on {
+	color:#50c1e9;
+	background-size: 3.8rem 2rem;
+	
+}
+
+
+/*奖金提成*/
+
+.tc-money {
+	text-align: center;
+	background:#fff;
+	padding:1.25rem 0;
+	border-bottom:1px solid #eee;
+}
+.tc-money h2 {
+	padding-bottom: 1rem;
+}
+
+.commission {
+	margin-left:0.5rem;
+}
+
+.commission li {
+	position: relative;
+}
+.commission .title {
+	font-size:1rem;
+	line-height: 1.50rem;
+	color:#606666;
+}
+
+.commission .date {
+	font-size:0.6rem;
+	color:#babcbc;
+	line-height: 1.2rem;
+}
+
+.commission .ymoney {
+	padding-top: 1rem;
+	color:#babcbc;
+}
+.commission .ymoney font{
+	font-size: 2rem;
+	color:#babcbc;
+}
+
+
+.commission li {
+	background: url(../images/tc_bg.png) no-repeat;
+	background-size:98% 100%;
+	padding:1rem 2rem;
+	margin-bottom: 1rem;
+}
+
+.commission li p.used {
+	position: absolute;
+	right: 10%;
+	display: block;
+	width:1rem;
+	line-height: 1.5rem;
+	top:20%;
+	color:#babcbc;
+}
+
+
+/*抽签列表*/
+.raise-list {
+	width:96%;
+	margin:0 auto;
+}
+
+.raise-list ul li {
+	border:1px solid #ccc;
+	background: #fff;
+	border-radius: 5px;
+	padding:1rem;
+}
+
+.raise-list .tit {
+	height:2rem;
+	line-height: 2rem;
+}
+
+.raise-list .tit  h3 {
+
+}
+
+.raise-list .tit  span {
+	float: right;
+}
+
+.raise-list .con {
+	margin-top: 1rem;
+	height: 4rem;
+}
+.raise-list .con div {
+	width:33%;
+	float: left;
+}
+
+.raise-list .con div p {
+	height:1.5rem;
+	line-height: 1rem;
+}
+
+.how {
+	height:3rem;
+	border-top: 1px solid #ccc;
+}
+
+.how div {
+	margin-top: 1rem;
+	float: left;
+	width: 49%;
+	border-right: 1px solid #ccc;
+	line-height: 2rem;
+	text-align: center;
+
+}
+
+/*借条列表*/
+
+.iou-list li {
+	padding:0.5rem 1rem;
+	border-bottom:1px solid #ccc;
+}
+
+li.part1 {
+	height:2rem;
+	line-height: 2rem;
+}
+
+li.part1  span {
+	float: right;
+}
+
+li.iou-pay {
+	background: url(../images/iou_pay.png) 50% no-repeat;
+	background-size: 50%;
+}
+li.iou-suc {
+	background: url(../images/iou_suc.png) 50% no-repeat;
+	background-size: 50%;
+}
+li.iou-db {
+	background: url(../images/iou_db.png) 50% no-repeat;
+	background-size: 50%;
+}
+.iou-list-detail dl {
+	height:2rem;
+}
+.iou-list-detail dl dt, .iou-list-detail dl dd	{
+	float: left;
+	width: 50%;
+	line-height: 200%;
+}
+
+.iou-list-detail dl dd	 {
+	text-align: right;
+}
+
+/*标签和语音*/
+
+.tag,.voice {
+	padding:1rem;
+}
+.tag h3,.voice h3 {
+	margin-bottom: 2rem;
+}
+
+.tag-list span.add {
+	background: #f1f1f1;
+	color:#333;
+}
+.tag-list span {
+	display: block;
+	float: left;
+	padding:1rem;
+	background: #33ccff;
+	border-radius: 4px;
+	color: #fff;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.voice-list span{
+	display: block;
+	padding:1rem 0;
+	width: 100%;
+	border:1px solid #d7d8dd;
+	background: #eee;
+	border-radius: 4px;
+	text-align: center;
+}
+
+/*消息推送*/
+.msg-item {
+	background: #fff;
+	border-radius: 5px;
+	margin:0 auto;
+	width:90%;
+	border:1px solid #ccc;
+	margin-bottom: 1rem;
+	padding:1rem;
+}
+
+.msg-item h3 {
+	
+}
+
+.msg-item .msg-img,.msg-text{
+	width:100%;
+	margin: 1rem 0;
+	
+}
+
+.msg-img img {
+	background-size: 40% auto;
+}
+

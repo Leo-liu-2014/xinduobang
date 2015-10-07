@@ -1,0 +1,155 @@
+header{
+	width:100%;
+	background-color: #33ccff;
+	height:30%;
+	position: relative;
+}
+
+header .user {
+	width:9.37rem;
+	height:9.37rem;
+	margin:0 auto;
+	padding-top: 1rem;
+}
+
+header .user .user-img {
+	background: #48d1ff;
+	border:1px solid #5bdbff;
+	-webkit-border-radius:4.68rem;
+	border-radius: 4.68rem;
+	width:9.37rem;
+	height:9.37rem;
+	margin:0 auto;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+} 
+header .user .user-img img {
+	-webkit-border-radius:4rem;
+	border-radius: 4rem;
+	width:8.37rem;
+	height:8.37rem;
+	vertical-align: middle;
+}
+
+
+.user-text {
+	background: #88be4d;
+	color:#c9e0b4;
+	padding:0.5rem;
+	border-radius: 1rem;
+	margin-top:-2rem;
+	position: relative;
+	z-index: 999;
+	text-align: center;
+}
+
+.user-money {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.btn-up {
+	right:0;
+	bottom:10%;
+	position: absolute;
+	background: #33b2e5;
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding:2rem;
+	border-radius: 1rem 0 0 1rem;
+}
+
+.number {
+	top:10%;
+	left:5%;
+	position: absolute;
+	background: url(../images/number.png) no-repeat;
+	padding-left:25px;
+}
+
+.raise-list{
+}
+
+.raise-list li.on {
+	border:1px solid #4fc1e9;
+}
+.raise-list li.grey {
+
+}
+.raise-list .recommend {
+	position: absolute;
+	top:0;
+	left:0;
+	background: url(../images/recommend.png) no-repeat;
+	width: 5rem;
+	height:2rem;
+	background-size: 50%;
+}
+.raise-list li {
+	border:1px solid #ccc;
+	background: #fff;
+	border-radius: 5px;
+	padding:2rem;
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+.raise-list .tit {
+	height:2rem;
+}
+.raise-list .tit span {
+	float: right;
+}
+
+.raise-list .loading {
+	height:8px;
+	background: #e1e4e9;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 2px #d1d4d9 inset;
+	margin: 2rem 4rem 2rem 0rem;
+	position: relative;
+}
+
+.grey .loading span {
+	background-image: -moz-linear-gradient(top, #d7d7d7, #c7c7c7); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d7d7d7	), color-stop(1, #c7c7c7)); /* Saf4+, Chrome */
+}
+
+.loading span {
+	width:60%;
+	height:8px;
+	border-radius: 8px;
+	display: block;
+	background-image: -moz-linear-gradient(top, #54d9ff, #29c2ff); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #54d9ff), color-stop(1, #29c2ff)); /* Saf4+, Chrome */
+}
+.loading font{
+	position: absolute;
+	display: block;
+	right: 0;
+	top:0;
+}
+
+.raise-list .dec span {
+	display: block;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.raise-list .dec {
+	height: 2rem;
+	padding-bottom: 1rem;
+}
+
+.raise-list .load {
+	position: absolute;
+	right: 2rem;
+	top:4.75rem;
+}
+
+
+
+

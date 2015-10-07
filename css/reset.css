@@ -1,0 +1,392 @@
+/* CSS Document */
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	
+	font-family:'微软雅黑';
+}
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	margin:0 auto;
+	font-size:0.875rem;
+	font-family:Verdana;
+	background-color: #eee;
+}
+body,html{height:100%;}
+ul, dl, dd, h1, h2, h3, h4, h5, h6, form, p {
+	padding:0;
+	margin:0;
+}
+ul {
+	list-style:none;
+}
+img {
+	border:none;
+}
+a {
+	color:#444;
+	text-decoration:none;
+
+}
+
+.clearfix {
+	clear:both;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+
+.ad {
+	margin-top:10px;
+}
+
+
+footer {
+	color:#d0d5d5;
+	text-align: center;
+	line-height: 2rem;
+}
+
+/*
+	新增头部
+	看是否有冲突
+	10／05
+*/
+
+.common-blue {
+	color:#50c1e9;
+}
+
+.common-grey {
+	font-size:0.8rem;
+	color:#babcbc;
+}
+
+
+.f20 {
+	font-size: 1.25rem;
+}
+.cred {
+	color:#ed5566;
+}
+
+.h30 {
+	height:1.875rem;
+	overflow: hidden;
+}
+
+
+
+.f30 {
+	font-size: 1.8755rem;
+	
+}
+
+.f16{
+	font-size: 1rem;
+}
+
+.f24 {
+	font-size: 1.5rem;
+}
+
+.f48 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.f36 {
+	font-size: 2.25rem;
+	color:#33ccff;
+}
+
+.f90 {
+	color:#ff9900;
+}
+
+.text-height {
+	padding:1rem 2rem;
+	line-height: 150%;
+}
+
+.text-height p {
+	text-align: center;
+	
+}
+
+body div.border-none {
+	border-right: none;
+}
+header {
+	width: 100%;
+	height:15rem;
+	background: #33ccff;
+}
+header article {
+	color:#fff;
+	text-align: center;
+}
+
+a.btn {
+	border:1px solid #ff9900;
+	border-radius: 2px;
+	color: #ff9900;
+	padding:5px;
+	float: right;
+	margin-right: 20px;
+	font-size: 0.5rem;
+	margin-top:-4px;
+}
+
+
+/*文本格式 横向 双拦或三栏*/
+.list-content {
+	background: #fff;
+}
+
+.transverse ul li {
+	float:left;
+	width:49%;
+	padding:1.5rem 0 1.5rem;
+	border-left: 1px solid #eee;
+}
+
+.transverse h2 {
+	font-weight: normal;
+	font-size:1rem;
+	color:#b0bbbb;
+	padding-bottom:1.25rem;
+}
+
+.transverse h2 ,.transverse p {
+	padding-left: 1.875rem;
+}
+
+/*竖排 单1加3*/
+
+.vertical ul li {
+	width:100%;
+	padding:1.875rem 0 2.5rem 0;
+	border-top: 1px solid #eee;
+}
+
+.vertical dl {
+	float:left;
+	width:33%;
+	margin-bottom:1.875rem;
+
+}
+
+.vertical dl dd,.vertical dl  dt {
+	padding-left: 1.875rem;
+}
+
+.vertical dl  dt {
+	font-weight: normal;
+	font-size:1.25rem;
+	color:#33ccff;
+	padding-bottom:0.25rem;
+}
+
+.vertical dl  dd {
+	color:#b0bbbb;
+}
+
+.vertical h2 {
+	font-weight: normal;
+	font-size:1.25rem;
+	color:#b0bbbb;
+	padding-bottom:1.25rem;
+}
+
+.vertical h2 ,.vertical p {
+	padding-left: 1.875rem;
+}
+
+
+/*纯竖排*/
+
+.list ul li {
+	padding:1.4rem;
+	border-top: 1px solid #eee;
+}
+.list ul li span {
+	float: right;
+	color: #33ccff;
+}
+
+.list ul li p {
+	padding-top:0.3rem;
+}
+
+body .noclor ul li span{
+	color:#606666;
+}
+
+.noclor ul li  font.good {
+	color:#ff9900;
+	margin-bottom: 3px;
+}
+/*详细明细*/
+
+.timer {
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+}
+
+.timer span {
+	background: #ccc;
+	color:#fff;
+	padding:0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.list li.detal-icon{
+	padding:0.875rem;
+	border-top: 1px solid #eee;
+}
+
+.list .doc {
+	padding-left:3rem;
+}
+
+.help {
+	background: url(../images/detal_01.jpg) 10px 50%  no-repeat;
+	background-size: 2.8rem 2.8rem;
+}
+body li.help span {
+	color:#a0d468;
+}
+.pay {
+	background: url(../images/detal_02.jpg) 10px 50%  no-repeat;
+	background-size: 2.8rem 2.8rem;
+}
+.ti {
+	background: url(../images/detal_03.jpg) 10px 50%  no-repeat;
+	background-size: 2.8rem 2.8rem;
+}
+.huan {
+	background: url(../images/detal_04.jpg) 10px 50%  no-repeat;
+	background-size: 2.8rem 2.8rem;
+}
+.shou {
+	background: url(../images/detal_05.jpg) 10px 50%  no-repeat;
+	background-size: 2.8rem 2.8rem;
+}
+
+.detal-icon .tit {
+	font-size:1rem;
+	height:1.5rem;
+	color:#606666;
+}
+.detal-icon span {
+	line-height: 300%;
+}
+
+.detal-icon .time-text {
+	color:#ccc;
+}
+
+
+/*table 列表*/
+
+.tab-list {
+	width: 100%;
+}
+
+.tab-list tr {
+
+}
+
+.tab-list font {
+	margin-right: 10px;
+}
+
+.tab-list font.f90 {
+	color:#ff9900;
+}
+
+
+.tab-list th,.tab-list td {
+	width:33%;
+	padding:1rem 0;
+	height:1rem;
+	line-height: 1rem;
+	text-align: center;
+	border-bottom:1px solid #eee;
+}
+
+/*重写首页头部模块*/
+
+.content {
+	padding:2rem 1rem;
+	
+}
+.content p {
+	line-height: 3rem;
+	text-align: center;
+}
+
+.full-btn {
+	margin-top:1rem;
+	display: block;
+	text-align: center;
+	width: 100%;
+	background: #33ccff;
+	color:#fff;
+	border-radius: 5px;
+	padding:1.2rem 0;
+	font-size: 1.5rem;
+}
+
+.user-full {
+	float:left;
+}
+.voice {
+	float:left;
+	position: relative;
+	top:-6px;
+}
+.voice div.head {
+	display: block;
+	float: left;
+	background:url(../images/voice.png) 5px 7px  no-repeat;
+	width: 10px;
+	height: 2rem;
+	background-size: 50%;
+}
+.voice div.time{
+	display: block;
+	float: left;
+	width:30%;
+	height: 2rem;
+	background:url(../images/voice_icon.png) 0 50% #a0d468 no-repeat;
+	border-radius:3px;
+	color:#fff;
+	line-height: 2rem;
+	text-align: right;
+	padding-right: 10px;
+	background-size: 20%;
+}
+
+
+

@@ -1,0 +1,29 @@
+/*实名注册*/
+.register {
+	background: #fff;
+	width: 90%;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	margin:0 auto;
+}
+
+.register input.text {
+	border:none;
+	padding:1rem 2rem;
+}
+
+.register li {
+	padding:1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.register li span.code {
+	float: right;
+	margin-top:1rem;
+}
+
+input.checkcode {
+	width:19%;
+	border:none;
+	padding:1rem 2rem;
+}

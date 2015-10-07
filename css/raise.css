@@ -1,0 +1,252 @@
+/*筹一把*/
+
+
+.raise-header {
+	width: 100%;
+	height:12rem;
+	background: #33ccff;
+	position: relative;
+
+}
+.raise-header .user-money {
+	padding:1rem;
+	text-align: center;
+}
+
+.raise-header .user-money p {
+	padding-bottom: 1rem;
+}
+
+.btn-ups {
+	right:0;
+	top:20%;
+	position: absolute;
+	background: #33b2e5;
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding:1.5rem;
+	border-radius: 1rem 0 0 1rem;
+}
+
+.drag-load {
+	background: #fff;
+	height: 6px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding:0 2rem;
+	position: relative;
+}
+
+div.drag-blue {
+	background: #33ccff;
+	margin: 2rem 0;
+	width: 90%;
+}
+.raise-list .drag-blue span {
+	background: #33ccff;
+}
+
+.drag-load span {
+	display: block;
+	float: left;
+	background: #fff;
+	width: 1rem;
+	height: 1rem;
+	-webkit-border-radius:0.5rem;
+	margin-right: 20%;
+	margin-top: -0.275rem;
+
+}
+
+.drag-load span.last {
+	margin-right: 0;
+}
+
+div.drag-blue a.move {
+	background: url(../images/drag_move_blue.png) no-repeat;
+	background-size: 80%;
+}
+a.move {
+	display: block;
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	top:-1rem;
+	background: url(../images/drag_move.png) no-repeat;
+	background-size: 80%;
+}
+
+
+
+
+
+.raise-list{
+}
+
+.raise-list li.on {
+	border:1px solid #4fc1e9;
+}
+.raise-list li.grey {
+
+}
+.raise-list .recommend {
+	position: absolute;
+	top:0;
+	left:0;
+	background: url(../images/recommend.png) no-repeat;
+	width: 5rem;
+	height:2rem;
+	background-size: 50%;
+}
+.raise-list li {
+	border:1px solid #ccc;
+	background: #fff;
+	border-radius: 5px;
+	padding:2rem;
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+.raise-list .tit {
+	height:2rem;
+}
+.raise-list .tit span {
+	float: right;
+}
+
+.raise-list .loading {
+	position: relative;
+}
+
+.raise-list .loading-grey {
+	height:8px;
+	background: #e1e4e9;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 2px #d1d4d9 inset;
+	margin: 2rem 3rem;
+	position: relative;
+}
+
+.loading span.move {
+	top:-10px;
+	width:20px;
+	height:20px;
+	border:1px solid #ccc;
+	-webkit-border-radius:10px;
+	background: #fff;
+	box-shadow: 0px  2px  1px  1px #9c9da0;
+	position: absolute;
+}
+
+.grey .loading span {
+	background-image: -moz-linear-gradient(top, #d7d7d7, #c7c7c7); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d7d7d7	), color-stop(1, #c7c7c7)); /* Saf4+, Chrome */
+}
+
+.loading span {
+	width:60%;
+	height:8px;
+	border-radius: 8px;
+	display: block;
+	background-image: -moz-linear-gradient(top, #54d9ff, #29c2ff); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #54d9ff), color-stop(1, #29c2ff)); /* Saf4+, Chrome */
+}
+
+.loading div {
+	position: absolute;
+	color: #333;
+	font-size: 0.6rem
+}
+
+.loading .begin {
+	top:0;
+	left:0;
+}
+
+.loading .end {
+	right:0;
+	top:0;
+}
+
+.loading font{
+	position: absolute;
+	display: block;
+	right: 0;
+	top:0;
+}
+
+.raise-list .dec span {
+	display: block;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.raise-list .dec {
+	height: 2rem;
+	padding-bottom: 1rem;
+}
+
+.raise-list .load {
+	position: absolute;
+	right: 2rem;
+	top:4.75rem;
+}
+
+
+.raise-date {
+	padding-top: 2rem;
+	border-top: 1px solid #ccc;
+}
+
+.tit .select {
+	float: right;
+}
+
+.tit .select span {
+	display: block;
+	float: left;
+	padding:0.5rem  1rem;
+	background:#eee;
+	color: #d3d3d3;
+	margin-right: 1rem;
+	border-radius: 0.5rem;
+}
+.tit .select span.on {
+	color: #fff;
+	background: #33ccff;
+}
+
+.loading-text {
+	margin-bottom: 2rem;
+}
+.loading-text .text {
+	background: #eee;
+	border:none;
+	padding:1rem;
+	border-radius: 5px;
+}
+
+.add-btn {
+	background: #f6f6f6;
+	border:none;
+	padding:1rem;
+	border-radius: 5px;
+}
+
+.voice-list a{
+	display: block;
+	padding:1rem 0;
+	width: 100%;
+	border:1px solid #d7d8dd;
+	background: #eee;
+	border-radius: 4px;
+	text-align: center;
+}
+
+
+
+
+
