@@ -1,20 +1,20 @@
-header{
+/*筹一把*/
+.header-help{
 	width:100%;
-	background-color: #33ccff;
 	position: relative;
+	background: #fff;
 	padding-bottom: 1rem;
 }
 
-header .user {
+.header-help .user {
 	width:9.37rem;
 	height:9.37rem;
 	margin:0 auto;
 	padding-top: 1rem;
 }
 
-header .user .user-img {
-	background: #48d1ff;
-	border:1px solid #5bdbff;
+.header-help .user .user-img {
+	background: #ecf8fc;
 	-webkit-border-radius:4.68rem;
 	border-radius: 4.68rem;
 	width:9.37rem;
@@ -24,7 +24,7 @@ header .user .user-img {
 	text-align: center;
 	display: table-cell;
 } 
-header .user .user-img img {
+.header-help .user .user-img img {
 	-webkit-border-radius:4rem;
 	border-radius: 4rem;
 	width:8.37rem;
@@ -33,9 +33,9 @@ header .user .user-img img {
 }
 
 
-.user-text {
-	background: #88be4d;
-	color:#c9e0b4;
+.user-text-help {
+	background: #ed5565;
+	color:#f6b7bc;
 	padding:0.5rem;
 	border-radius: 1rem;
 	margin-top:-2rem;
@@ -49,61 +49,40 @@ header .user .user-img img {
 	text-align: center;
 }
 
-.btn-up {
+.btns .btn-up {
 	right:0;
-	bottom:10%;
+	top:45%;
 	position: absolute;
-	background: #33b2e5;
-	color: #fff;
+	background: #f3f5f5;
+	color: #999;
 	text-align: center;
 	display: block;
-	padding:2rem;
+	padding:1rem;
 	border-radius: 1rem 0 0 1rem;
 }
 
 .number {
 	top:10%;
-	left:5%;
+	left:0%;
 	position: absolute;
-	background: url(../images/number.png) no-repeat;
 	padding-left:25px;
 }
 
-.raise-list{
+.number span {
+	padding:1rem 0 0 1.5rem;
+	font-size: 0.5rem;
+	color: #22ac38;
+	background: url(../images/db.png) 0 50% no-repeat;
+	background-size: 20%;
 }
 
-.raise-list li.on {
-	border:1px solid #4fc1e9;
-}
-.raise-list li.grey {
 
-}
-.raise-list .recommend {
-	position: absolute;
-	top:0;
-	left:0;
-	background: url(../images/recommend.png) no-repeat;
-	width: 5rem;
-	height:2rem;
-	background-size: 50%;
-}
-.raise-list li {
-	border:1px solid #ccc;
-	background: #fff;
-	border-radius: 5px;
-	padding:2rem;
+.raise-list-top {
+	padding:0 1rem;
 	position: relative;
-	margin-bottom: 2rem;
 }
 
-.raise-list .tit {
-	height:2rem;
-}
-.raise-list .tit span {
-	float: right;
-}
-
-.raise-list .loading {
+.raise-list-top .loading {
 	height:8px;
 	background: #e1e4e9;
 	border-radius: 8px;
@@ -125,6 +104,12 @@ header .user .user-img img {
 	background-image: -moz-linear-gradient(top, #54d9ff, #29c2ff); /* Firefox */
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #54d9ff), color-stop(1, #29c2ff)); /* Saf4+, Chrome */
 }
+
+.raise-list-top .load {
+	position: absolute;
+	right: 1rem;
+	top:0;
+}
 .loading font{
 	position: absolute;
 	display: block;
@@ -132,24 +117,13 @@ header .user .user-img img {
 	top:0;
 }
 
-.raise-list .dec span {
-	display: block;
+.three-list {
+	padding:0 2rem;
+}
+.three-list li{
 	float: left;
 	width: 33%;
-	text-align: center;
 }
-
-.raise-list .dec {
-	height: 2rem;
-	padding-bottom: 1rem;
+.three-list h3	{
+	line-height: 150%;
 }
-
-.raise-list .load {
-	position: absolute;
-	right: 2rem;
-	top:4.75rem;
-}
-
-
-
-
