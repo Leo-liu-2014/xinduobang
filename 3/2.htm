@@ -34,7 +34,7 @@
 <div class="list-content list">
 	<ul>
 		<li><a href="#"><span>1000,111,111</span>到期还款（元）</a></li>
-		<li><a href="#"><span>开关</span>友好担保权限</a></li>
+		<li><a href="#"><span class="turn-on turn"><em></em></span>友好担保权限</a></li>
 	</ul>
 </div>
 <div class="text-height">
@@ -46,5 +46,26 @@
 	<p class="common-grey">已通知20位好友，筹到钱后立即短信通知您</p>
 </div>
 <div class="h30"></div>
+<script type="text/javascript" src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+
+		$(".turn").click(function(){
+			if ($(this).hasClass("turn-off")) {
+				$(this).addClass("turn-on").removeClass("turn-off");
+				return
+			};
+			$(this).addClass("turn-off").removeClass("turn-on");
+			
+		});
+		
+	})
+</script>
+
+
+
+
+
+
 </body>
 </html>
