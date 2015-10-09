@@ -9,9 +9,12 @@
 	<meta content="telephone=no" name="format-detection" />
 	<link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/raise.css" />
+	<script type="text/javascript" src="../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.slider-min.js"></script>
 
 </head>
 <body>
+<div id="slider-range-max"></div>
 <div class="raise-header">
 	<div class="user-money">
 			<p class="f20">人气旺，筹一把(元)</p>
@@ -124,5 +127,81 @@
 	
 	<p><a href="＃">用户协议</a></p>
 </div>
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $( "#slider-range-max" ).slider({
+      range: "max",
+      min: 1,
+      max: 10,
+      value: 2,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( ui.value );
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range-max" ).slider( "value" ) );
+  });
+
+
+	$(function(){
+
+			/*	 拖动插件
+					 可根据拖动位置计算固定额度，需传入总额度还是换算
+			*/
+
+			// 控制器
+			var _move = false;
+
+			var _x,_y;
+
+			var elementDom = $(".move");
+
+
+
+
+			var moveController = {
+
+				element : function(){
+
+
+				}
+			
+			};
+
+		elementDom.click(function(){  
+        //alert("click");//点击（松开后触发）  
+    }).mousedown(function(e){  
+        _move=true;  
+        _x=e.pageX-parseInt($(this).css("left"));
+    });
+
+
+			elementDom.mousemove(function(e){
+				if(_move){ 
+						var x=e.pageX-_x;//移动时根据鼠标位置计算控件左上角的绝对位置  
+						console.log(x);
+						if(x<=0){
+							x=0;
+						}
+						if( x >=100){
+							x=100;
+						}
+            $(this).css({left:x + "%"});//控件新位置  
+         }
+
+			}).mouseup(function(){  
+			    	_move=false;  
+			  });  
+
+
+			moveController.element();
+
+
+
+
+
+
+	})
+</script>
 </body>
 </html>
