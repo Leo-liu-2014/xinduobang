@@ -8,7 +8,7 @@
 
 .icon-list li {
 	float:left;
-	width:24.8%;
+	width:33.1%;
 	height:7rem;
 	text-align: center;
 	border:1px solid #eee;
@@ -60,7 +60,7 @@ i.jt {
 i.msg {
 	background:url(../images/icon_09.png) 50% no-repeat;
 }
-i.fr {
+i.frd {
 	background:url(../images/icon_15.png) 50% no-repeat;
 }
 i.safe {
@@ -80,6 +80,99 @@ i.qa {
 	
 }
 
+header .btns {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+body header{
+	width:100%;
+	background-color: #33ccff;
+	position: relative;
+	padding-bottom: 1rem;
+	height:18rem;
+}
+
+header .user {
+	width:9.37rem;
+	height:9.37rem;
+	margin:0 auto;
+	padding-top: 1rem;
+}
+
+header .user .user-img {
+	background: #48d1ff;
+	border:1px solid #5bdbff;
+	-webkit-border-radius:4.68rem;
+	border-radius: 4.68rem;
+	width:9.37rem;
+	height:9.37rem;
+	margin:0 auto;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+} 
+header .user .user-img img {
+	-webkit-border-radius:4rem;
+	border-radius: 4rem;
+	width:8.37rem;
+	height:8.37rem;
+	vertical-align: middle;
+}
+
+
+.user-text {
+	background: #88be4d;
+	color:#c9e0b4;
+	padding:0.5rem;
+	border-radius: 1rem;
+	margin-top:-2rem;
+	position: relative;
+	z-index: 999;
+	text-align: center;
+}
+
+.user-money {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.btn-up {
+	right:0;
+	bottom:10%;
+	position: absolute;
+	background: #33b2e5;
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding:2rem;
+	border-radius: 1rem 0 0 1rem;
+}
+
+header .btns  a.pay{
+	display: block;
+	height:4rem;
+	width:49.5%;
+	text-align: center;
+	line-height: 4rem;
+	font-size: 1.2rem;
+	color: #fff;
+	background: #3399cc;
+	float:left;
+	border-radius: 0 5px 5px 0;
+}
+header .btns  a.outM{
+	display: block;
+	height:4rem;
+	width:49.5%;
+	text-align: center;
+	line-height: 4rem;
+	font-size: 1.2rem;
+	color: #fff;
+	background: #3399cc;
+	float:right;
+	border-radius: 5px 0 0 5px;
+}
 
 .art-tit {
 	padding:2rem 0;
@@ -445,5 +538,21 @@ li.iou-db {
 
 	margin-right: 1rem;
 	margin-bottom: 1rem;
+}
+
+.tqhk {
+	width:80px;
+	height:2rem;
+	line-height: 2rem;
+	display: block;
+	border:1px solid #ed5565;
+	background: #fff;
+	color: #ed5565;
+	padding:0 1rem;
+	border-radius: 5px;
+	text-align: center;
+	position: relative;
+	top:35px;
+	right: 30px;
 }
 
