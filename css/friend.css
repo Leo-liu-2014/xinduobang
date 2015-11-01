@@ -1,0 +1,57 @@
+.search {
+	width: 100%;
+	text-align: center;
+	padding-top:1rem;
+}
+.search input {
+	width: 90%;
+	margin:0 auto;
+	height: 2rem;
+	border-radius: 5px;
+	border:none;
+	text-indent: 2rem;
+	text-align: center;
+	background: url(../images/search.png) #fff  32% center  no-repeat;
+	background-size: 15px 15px;
+}
+
+.friend-list {
+	width: 100%;
+}
+
+.friend-list li {
+	background: #fff;
+	height:50px;
+	line-height: 50px;
+	padding-left: 20px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.friend-list .tit span{
+	display: block;
+	background:url(../images/yq.png) 0 center no-repeat;
+	background-size: 25px 25px;
+	padding-left: 30px;
+}
+
+.friend-list .tit a {
+}
+
+.friend-list h3 {
+	padding-left: 30px;
+
+	padding-bottom: 10px;
+}
+.friend-list li  img {
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
