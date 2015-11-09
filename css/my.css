@@ -556,3 +556,14 @@ li.iou-db {
 	right: 30px;
 }
 
+.tab-list p {
+	line-height: 150%;
+}
+
+.tab-list a {
+	border: 1px solid #fbab00;
+	padding:2px 15px;
+	color:#fbab00;
+	line-height: 200%;
+	border-radius: 5px;
+}
